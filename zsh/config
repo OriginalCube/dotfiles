@@ -1,0 +1,10 @@
+# Custom Commands
+alias lg='lazygit'
+alias cstart='colima start'
+alias dkr='docker compose up --watch --build'
+alias snre='sudo vim /etc/nixos/configuration.nix'
+alias snrr='sudo nixos-rebuild switch'
+alias hypres='pkill waybar & hyprctl reload' 
+alias faf='fastfetch' 
+alias ths='$HOME/.local/personal-dotfiles/theme.sh' 
+

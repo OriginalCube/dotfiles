@@ -1,0 +1,50 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.enablePreview": false,
+  "editor.lineNumbers": "relative",
+
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.stickyScroll.enabled": false,
+  "files.autoSaveWhenNoErrors": true,
+  "window.titleBarStyle": "custom",
+
+  // Fonts
+  "editor.fontSize": 18,
+  "editor.fontFamily": "JetBrainsMono NF Medium",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 4,
+
+  // prettier & eslint
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Use Prettier as the default formatter
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue" 
+  ],
+  "eslint.run": "onSave",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "eslint.format.enable": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "typescript.inlayHints.parameterNames.enabled" : "all",
+  "git.addAICoAuthor": "off",
+
+  // Extensions customize
+  // "[json]": {
+  //   "editor.defaultFormatter": null
+  // },
+  "[java]": {
+    "editor.defaultFormatter": "RudraPatel.prettier-plugin-java-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.selectedModel": "haiku",
+  "chat.disableAIFeatures": true
+}

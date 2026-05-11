@@ -1,0 +1,102 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.quickOpen",
+        "when": "true"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.view.explorer",
+        "when": "true"
+    },
+    {
+        "key": "alt+0",
+        "command": "workbench.view.scm",
+        "when": "true"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "true"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "alt+x",
+        "command": "workbench.action.closeActiveEditor",
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.clipboardCopyAction",
+        "when": "editorTextFocus && vim.active"
+    },
+    // Terminal
+    {
+        "key": "alt+f12",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "true"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "true"
+    },
+    {
+        "key": "alt+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminal.active"
+    },
+    {
+        "key": "alt+shift+t",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminal.active"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminal.active"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminal.active"
+    },
+    {
+        "key": "alt+shift+c", 
+        "command": "workbench.files.action.collapseExplorerFolders",
+        "when": "explorerViewletVisible"
+    },
+    {
+        "key": "alt+shift+g",
+        "command": "git.checkout"
+    },
+    {
+        "key": "alt+shift+p",
+        "command": "git.pull"
+    },
+    {
+        "key": "alt+shift+r",
+        "command": "workbench.action.openRecent",
+        "when": "true" 
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletVisible"
+    }
+]
