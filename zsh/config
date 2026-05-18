@@ -7,4 +7,5 @@ alias snrr='sudo nixos-rebuild switch'
 alias hypres='pkill waybar & hyprctl reload' 
 alias faf='fastfetch' 
 alias ths='$HOME/.local/personal-dotfiles/theme.sh' 
-
+alias workdir='cd ~/Documents/work'
+alias projdir='cd ~/Documents/projects'

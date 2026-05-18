@@ -26,11 +26,12 @@
     },
     {
         "key": "ctrl+f4",
-        "command": "workbench.action.closeActiveEditor"
+        "command": "workbench.action.closeActiveEditor",
+        "when": "true"
     },
     {
         "key": "alt+x",
-        "command": "workbench.action.closeActiveEditor",
+        "command": "workbench.action.closeActiveEditor"
     },
     {
         "key": "ctrl+f",

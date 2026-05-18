@@ -17,5 +17,5 @@ input_path = '~/.local/personal-dotfiles/matugen/templates/kitty.css'
 output_path = '~/.local/personal-dotfiles/kitty/matugen/matugen-kitty.conf'
 
 [templates.rofi]
-input_path = '~/.local/personal-dotfiles/matugen/templates/rofi.css'
+input_path = '~/.local/personal-dotfiles/matugen/templates/rofi.rasi'
 output_path = '~/.local/personal-dotfiles/rofi/matugen/matugen-rofi.rasi'
