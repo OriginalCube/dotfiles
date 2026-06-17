@@ -1,0 +1,23 @@
+# Material You colors
+
+# Defaults
+width=300
+height=110
+margin=5
+padding=0,5,10
+border-size=2
+
+background-color=#102f60
+text-color=#debcdf
+border-color=#583e5b
+# Per-mode settings
+
+[mode=do-not-disturb]
+invisible=1
+on-notify=none
+
+[mode=silent]
+on-notify=none
+
+[urgency=high]
+border-color=#93000a

@@ -10,6 +10,7 @@ sources=(
     "wlogout"
     "rofi"
     "matugen"
+    "mako"
 )
 
 # Define the directory where the symlinks should be created
